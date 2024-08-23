@@ -1,0 +1,182 @@
+*{
+  font-family: Inder;
+
+}
+.hero{
+  color: white;
+  background: black;
+}
+/*Section 1*/
+#S1-HomePage {
+  background: black;
+  position: relative;
+  width: 90%;
+  height: 690px;
+  left: 110px;
+}
+
+#My-Profile-Photo{
+  position: absolute;
+  border-radius: 30px;
+  top: 100px;
+  right: 80px;
+}
+section:nth-child(1) > header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  padding: 20px 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  /*
+  -webkit-backdrop-filter: blur(10px);
+  */
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+section:nth-child(1) > header > div {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 15px;
+}
+
+section:nth-child(1) > header > nav {
+  position: relative;
+  left: 180px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 84%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #cccccc;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #11E4E4;
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  color: #cccccc;
+}
+nav ul li a:hover{
+  color: #11E4E4;
+}
+
+section:nth-child(1)>main>section:nth-child(1)>#Hello-Word{
+  font-size: 80px;
+  position: relative;
+  top: 60px;
+  font-family: 'Inder', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+section:nth-child(1)>main>section:nth-child(1)>#My-name{
+  font-size: 80px;
+  position: absolute;
+  left: 250px;
+  top: 80px;
+  font-weight: bold;
+}
+
+#-id{
+  font-size: 150px;
+  font-weight: lighter;
+ }
+
+
+section:nth-child(1)>main>section:nth-child(1)>#i-am-Developer{
+  font-size: 50px;
+  position: absolute;
+  font-weight: bold;
+  font-style: italic;
+  top: 400px;
+
+}
+#A{
+  font-size: 70px;
+}
+#I{
+  font-size: 70px;
+}
+#D{
+  font-size: 70px;
+}
+#developer{
+  color: #11E4E4;
+}
+#D2{
+  font-size: 70px;
+}
+#developer2{
+  color: #11E4E4;
+}
+#P{
+  font-size: 70px;
+}
+#S{
+  font-size: 70px;
+}
+#W{
+  font-size: 70px;
+}
+
+
+section:nth-child(1)>main>section:nth-child(1)>#Download-Cv{
+  background-color: #11E4E4;
+  height: 65px;
+  width: 200px;
+  color: black;
+  border: none;
+  border-radius: 0px;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 570px;
+}
+section:nth-child(1)>main>section:nth-child(1)>#Download-Cv1{
+  background-color: #11E4E4;
+  filter: blur(10px);
+  height: 65px;
+  width: 200px;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 570px;
+}
+section:nth-child(1)>main>section:nth-child(1)>#Download-Cv:hover {
+  background-color: white;
+}
